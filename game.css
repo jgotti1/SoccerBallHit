@@ -19,11 +19,12 @@
   text-align: center;
   top: 10px;
   font-size: 16pt;
+  margin-left: 5%;
 }
 .ctc2 {
   display: block;
   position: fixed;
-  margin-left: 61%;
+  margin-left: 63%;
   height: 80px;
   width: 320px;
   background-color: rgb(33, 33, 33);
@@ -48,12 +49,12 @@ h1 {
 
 h2 {
   text-align: center;
-  background-color: yellowgreen;
+  background-color: darkgreen;
   width: 1000px;
   margin: auto;
-  background-color: yellowgreen;
   border-radius: 20px;
-  border: 2px dotted darkgreen;
+  border: 2px dotted white;
+  color: white;
 }
 
 .monkey {
@@ -76,14 +77,14 @@ body {
   width: 320px;
   margin-left: auto;
   margin-top: 30px;
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20pt;
   text-align: center;
   margin: auto;
-  background-color: yellowgreen;
+  background-color: rgb(53, 78, 4);
   border-radius: 20px;
-  border: 2px dotted darkgreen;
+  border: 2px dotted white;
 }
 
 .playArea {

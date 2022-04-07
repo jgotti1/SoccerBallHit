@@ -11,7 +11,7 @@ let lowtime = document.querySelector(".timer");
 let button = document.querySelector(".ctc");
 let button2 = document.querySelector(".ctc2");
 let speed;
-let level;
+let level = 1;
 let bkmusic = document.getElementById("bkmusic");
 let monkeyYum = document.getElementById("monkeyYum");
 
@@ -20,8 +20,8 @@ window.addEventListener("DOMContentLoaded", () => {
   button2.style.display = "none";
 });
 function restart() {
-  startingMin = prompt("How long do you want to play, enter 1 ,2 or 3 minutes");
-  level = prompt("Difficulty Level: 1-Easy  2- Medium  3-Expert");
+  startingMin = 1;
+
   if (startingMin == 1 || startingMin == 2 || startingMin == 3) {
     time = startingMin * 60;
     game();
@@ -122,11 +122,12 @@ function stopGame() {
   playArea.style.backgroundImage = "none";
   playArea.style.cursor = "none";
   body.style.backgroundImage = "url(assets/gameover.jpg)";
+  body.style.objectFit = "fill";
   let monkey = document.querySelector(".monkey");
   monkey.style.backgroundImage = "none";
   body.style.backgroundPosition = "left";
-  button2.innerText = "Game Over Click her to play again ... 🐵🐵🐵";
-  button2.style.border = "3px dashed red";
+  button2.innerText = "Game Over Click her to play again ... ⚽🥅⚽";
+  button2.style.border = "3px dashed white";
   button2.style.display = "block";
   button2.addEventListener("click", function () {
     location.reload();
