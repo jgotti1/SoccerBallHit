@@ -1,0 +1,105 @@
+/* * {
+  border: 2px solid red;
+} */
+.start {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+}
+.ctc {
+  display: block;
+  position: fixed;
+  height: 80px;
+  width: 320px;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-radius: 20px;
+  border: 6px dashed yellowgreen;
+  opacity: 70%;
+  text-align: center;
+  top: 10px;
+  font-size: 16pt;
+}
+.ctc2 {
+  display: block;
+  position: fixed;
+  margin-left: 61%;
+  height: 80px;
+  width: 320px;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-radius: 20px;
+  border: 6px dashed yellowgreen;
+  opacity: 70%;
+  text-align: center;
+  top: 10px;
+  font-size: 16pt;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(3, 62, 3);
+  font-size: 38pt;
+  font-family: fantasy;
+  text-shadow: 2px 2px whitesmoke;
+  height: 30px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  background-color: yellowgreen;
+  width: 1000px;
+  margin: auto;
+  background-color: yellowgreen;
+  border-radius: 20px;
+  border: 2px dotted darkgreen;
+}
+
+.monkey {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url("assets/josh.png");
+  height: 160px;
+  width: 175px;
+}
+
+body {
+  background-image: url("assets/grass.jpg");
+}
+.instruct {
+  height: 50px;
+}
+.messageArea {
+  height: 35px;
+  width: 320px;
+  margin-left: auto;
+  margin-top: 30px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20pt;
+  text-align: center;
+  margin: auto;
+  background-color: yellowgreen;
+  border-radius: 20px;
+  border: 2px dotted darkgreen;
+}
+
+.playArea {
+  border-radius: 5%;
+  background-image: url("assets/field.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 800px;
+  cursor: url("assets/cursor.png"), auto;
+  margin: auto;
+  overflow: hidden;
+  border: 2px dotted darkgreen;
+}
+
+div,
+.monkey {
+  overflow: hidden;
+}
